@@ -11,21 +11,18 @@ dejarlo como «Pendent». Este archivo se publica tal cual.
 
 ## 1. El sistema
 
-![L'aro de Real360 Lab en directe: sis altaveus d&b penjats sobre el cap binaural, músics al voltant i públic amb auriculars](img/aro-directe.jpg)
+![L'aro de Real360 Lab en directe: l'aro penjat sobre el cap binaural, músics al voltant i públic amb auriculars](img/aro-directe.jpg)
 
 L'aro es penja horitzontalment sobre el cap binaural (*dummy head*). Els músics toquen al voltant i el públic
 escolta amb auriculars el que capta el cap: el so que es mou per l'aro, tal com l'escoltaria una persona al centre.
 
-L'aro té dues configuracions d'altaveus:
+El sistema és propi:
 
-| | Configuració d&b (inversió del projecte) | Configuració Genelec (ús actual) |
-|---|---|---|
-| **Aro** | Estructura metàl·lica de 2 m de diàmetre, penjada horitzontalment | La mateixa |
-| **Altaveus** | 6 altaveus d&b audiotechnik *(model)*, equidistants | 4 Genelec 8040B (autoamplificats), en quadrafonia |
-| **Amplificació** | Etapa de potència d&b *(model)* | Integrada als Genelec |
-| **Captació** | Cap binaural *(model: Neumann KU 100?)* al centre, sota l'aro | El mateix |
-
-Comú a les dues configuracions:
+| | |
+|---|---|
+| **Aro** | Estructura metàl·lica de 2 m de diàmetre, penjada horitzontalment |
+| **Altaveus** | 4 Genelec 8040B (autoamplificats), en quadrafonia |
+| **Captació** | Cap binaural *(model)* al centre, sota l'aro |
 
 - **Interfície d'àudio:** MOTU 896 Mk3.
 - **Taula de so:** Midas Venice, per a les fonts en directe (micròfons, instruments).
@@ -52,15 +49,15 @@ fonts en directe ──► Midas Venice ──► MOTU 896 Mk3 ──► Logic P
 | App POLAR: panoramització des de l'ordinador i el mòbil, MIDI, sessions | Fet |
 | Plugin POLAR: rep la posició de l'app i reparteix el so pels altaveus | Fet (4 altaveus) |
 | Kit POLAR: llei de panoramització, pad i moviments automàtics compartits | Fet |
-| POLAR amb 6 altaveus (configuració d&b de l'aro) | Pendent |
 
 ### Per què un sistema propi
 
 El projecte preveia treballar amb una versió de prova del programari de posicionament per objectes de d&b
-audiotechnik. En lloc de dependre d'un programari tancat i d'un sol fabricant, hem desenvolupat **POLAR, un
-sistema d'espacialització propi, independent i obert**:
+audiotechnik. **No fem servir el sistema de d&b.** En lloc de dependre d'un programari tancat i d'un sol fabricant,
+hem desenvolupat **POLAR, un sistema d'espacialització propi, independent i obert**, que és el que fa sonar l'aro
+amb els Genelec:
 
-- Funciona amb qualsevol interfície i qualsevol altaveu: el mateix aro sona amb els d&b o amb els Genelec.
+- Funciona amb qualsevol interfície i qualsevol altaveu.
 - No necessita llicències: el codi és públic (AGPL-3.0) i es pot replicar en altres espais.
 - Està pensat per a l'escena: control des del mòbil i per MIDI, moviments automàtics i un plugin per pista al DAW.
 

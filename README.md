@@ -28,9 +28,9 @@ POLAR és un conjunt d'eines per moure fonts sonores per un anell d'altaveus:
 
 ### El laboratori
 
-Real360 Lab és un aro d'altaveus de dos metres de diàmetre penjat sobre un cap binaural: sis altaveus d&b
-amb la seva etapa de potència o, en l'ús actual, quatre Genelec 8040B en quadrafonia, amb una interfície
-MOTU 896 Mk3 i una taula Midas Venice per a les fonts en directe. El públic escolta amb auriculars. POLAR és el programari
+Real360 Lab és un aro d'altaveus de dos metres de diàmetre penjat sobre un cap binaural, amb el nostre
+sistema propi: quatre Genelec 8040B en quadrafonia, una interfície MOTU 896 Mk3 i una taula Midas Venice
+per a les fonts en directe. El públic escolta amb auriculars. POLAR és el programari
 que reparteix el senyal de cada pista pels altaveus i permet moure el so per l'aro, des de
 l'ordinador o des del mòbil.
 
@@ -39,10 +39,10 @@ l'ordinador o des del mòbil.
 ### Un sistema propi i independent
 
 El projecte partia de la idea d'experimentar amb el programari de posicionament per objectes de d&b audiotechnik.
-Durant el laboratori hem creat **el nostre propi sistema d'espacialització, independent i obert**: POLAR.
+**No fem servir el sistema de d&b:** durant el laboratori hem creat **el nostre propi sistema d'espacialització,
+independent i obert**, POLAR, i és el que fem servir a l'aro amb els Genelec.
 
-- **No depèn de cap fabricant:** funciona amb qualsevol interfície d'àudio i qualsevol altaveu. El mateix aro
-  sona amb els altaveus d&b o amb els Genelec, sense canviar de programari.
+- **No depèn de cap fabricant:** funciona amb qualsevol interfície d'àudio i qualsevol altaveu.
 - **No depèn de llicències ni de programari tancat:** tot el codi és públic (AGPL-3.0) i qualsevol artista o
   entitat el pot fer servir, estudiar, modificar i replicar.
 - **Pensat per a l'escena:** es controla des del mòbil o per MIDI, es mou amb moviments automàtics i s'integra
@@ -102,9 +102,9 @@ POLAR es un conjunto de herramientas para mover fuentes de sonido por un anillo 
 
 ### El laboratorio
 
-Real360 Lab es un aro de altavoces de dos metros de diámetro colgado sobre una cabeza binaural: seis altavoces d&b
-con su etapa de potencia o, en el uso actual, cuatro Genelec 8040B en cuadrafonía, con una interfaz
-MOTU 896 Mk3 y una mesa Midas Venice para las fuentes en directo. El público escucha con auriculares. POLAR es el software
+Real360 Lab es un aro de altavoces de dos metros de diámetro colgado sobre una cabeza binaural, con nuestro
+sistema propio: cuatro Genelec 8040B en cuadrafonía, una interfaz MOTU 896 Mk3 y una mesa Midas Venice
+para las fuentes en directo. El público escucha con auriculares. POLAR es el software
 que reparte la señal de cada pista por los altavoces y permite mover el sonido por el aro,
 desde el ordenador o desde el móvil.
 
@@ -113,10 +113,10 @@ desde el ordenador o desde el móvil.
 ### Un sistema propio e independiente
 
 El proyecto partía de la idea de experimentar con el software de posicionamiento por objetos de d&b audiotechnik.
-Durante el laboratorio hemos creado **nuestro propio sistema de espacialización, independiente y abierto**: POLAR.
+**No usamos el sistema de d&b:** durante el laboratorio hemos creado **nuestro propio sistema de espacialización,
+independiente y abierto**, POLAR, y es el que usamos en el aro con los Genelec.
 
-- **No depende de ningún fabricante:** funciona con cualquier interfaz de audio y cualquier altavoz. El mismo aro
-  suena con los altavoces d&b o con los Genelec, sin cambiar de software.
+- **No depende de ningún fabricante:** funciona con cualquier interfaz de audio y cualquier altavoz.
 - **No depende de licencias ni de software cerrado:** todo el código es público (AGPL-3.0) y cualquier artista o
   entidad puede usarlo, estudiarlo, modificarlo y replicarlo.
 - **Pensado para la escena:** se controla desde el móvil o por MIDI, se mueve con movimientos automáticos y se integra
