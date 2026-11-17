@@ -1,0 +1,43 @@
+{
+  "name": "polar",
+  "version": "2.4.0",
+  "private": true,
+  "description": "POLAR: panning cuadraf\u00f3nico para Logic Pro, de REAL360",
+  "main": "main.js",
+  "scripts": {
+    "start": "node server.js",
+    "app": "electron .",
+    "dist": "electron-builder --mac"
+  },
+  "dependencies": {
+    "@julusian/midi": "^3.6.1",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.cote.polar",
+    "productName": "POLAR",
+    "mac": {
+      "category": "public.app-category.music",
+      "icon": "icon.png",
+      "target": [
+        "dir"
+      ]
+    },
+    "files": [
+      "main.js",
+      "server.js",
+      "index.html",
+      "icon.png",
+      "touch-icon.png",
+      "package.json"
+    ],
+    "asarUnpack": [
+      "node_modules/@julusian/midi/**"
+    ],
+    "npmRebuild": false
+  }
+}

@@ -1,0 +1,9 @@
+build/
+build*.log
+dist/
+node_modules/
+ThirdParty/JUCE/
+Versiones/
+.DS_Store
+apps/polar/mapping.json
+apps/polar/tracks.json
