@@ -44,6 +44,8 @@ fonts en directe ──► Midas Venice ──► MOTU 896 Mk3 ──► Logic P
 
 ## 3. Programari
 
+![L'app POLAR: cada pista és un punt de color que es mou pel pad; a les cantonades, el percentatge que rep cada altaveu](img/polar-app.jpg)
+
 | Peça | Estat |
 |---|---|
 | App POLAR: panoramització des de l'ordinador i el mòbil, MIDI, sessions | Fet |

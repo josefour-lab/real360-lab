@@ -5,6 +5,13 @@
 Programari obert per posicionar so a l'espai (360°) des d'un DAW, des de l'ordinador o des del mòbil.
 Desenvolupat per [REAL360](https://cotefournier.com) dins del projecte Real360 Lab de l'**Associació Panorama180**.
 
+<p align="center">
+  <img src="docs/img/polar-app.jpg" alt="App POLAR: el pad amb les pistes com a punts de colors i els quatre altaveus" width="74%">
+  &nbsp;
+  <img src="docs/img/polar-movil.jpg" alt="App POLAR al mòbil" width="20%">
+</p>
+<p align="center"><em>L'app POLAR a l'ordinador i al mòbil · La app POLAR en el ordenador y en el móvil</em></p>
+
 *[Castellano más abajo](#castellano)*
 
 > **Amb el suport de l'Institut de Cultura de Barcelona – Ajuntament de Barcelona.**
